@@ -1,0 +1,10 @@
+﻿services:
+  - type: web
+    name: patpat-link-checker
+    env: python
+    plan: starter
+    buildCommand: ""
+    startCommand: "python link_checker_app.py"
+    envVars:
+      - key: HOST
+        value: 0.0.0.0

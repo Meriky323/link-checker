@@ -1,0 +1,11 @@
+﻿version: "3.8"
+services:
+  patpat-link-checker:
+    build: .
+    container_name: patpat-link-checker
+    ports:
+      - "8765:8765"
+    environment:
+      HOST: 0.0.0.0
+      PORT: 8765
+    restart: unless-stopped

@@ -1,0 +1,13 @@
+﻿{
+  "name": "patpat-link-checker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "python link_checker_app.py",
+    "browser:install": "playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.60.0"
+  }
+}
