@@ -1,4 +1,4 @@
-﻿# PatPat Link Checker 本地部署验收说明
+﻿# Link Checker 本地部署验收说明
 
 ## 1. 启动
 
